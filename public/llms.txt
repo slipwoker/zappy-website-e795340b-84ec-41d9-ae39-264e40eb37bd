@@ -1,0 +1,93 @@
+# אטיאס סנטר בע"מ — Generative Engine Optimization Map
+
+> Atias Center Ltd. is a professional auto body and paint shop operating across Israel with two main locations in Bat Yam (Ort Israel St.) and Nes Ziona (HaPatish 6 St.). The business specializes in accident vehicle repairs for both private and commercial vehicles, works with all major insurance companies, and offers premium customer-centric services including free vehicle pickup and return as well as complimentary replacement vehicles. The brand aims to project a powerful, corporate-level image — trustworthy, professional, and nationwide — similar to large enterprise companies.
+
+---
+
+## Pages
+
+### בית
+https://-e795340b.zappy5.app
+מוסך פחחות וצבע מוביל בישראל לתיקוני תאונות לרכב פרטי ומסחרי. עובדים עם כל חברות הביטוח, איסוף והחזרה חינם ורכב חלופי ללא עלות. חייגו עכשיו!
+
+### שירותים
+https://-e795340b.zappy5.app/services
+מחפשים תיקון תאונות אמין? צוות המומחים שלנו מספק שירותי פחחות, צבע והתאמת חלקים בסטנדרט מפעלי. התקשרו לייעוץ חינם והזמנת שירות עד הבית!
+
+### ביטוח ותמיכת לקוחות
+https://-e795340b.zappy5.app/insurance-support
+עבודה ישירה מול כל חברות הביטוח המובילות בישראל. אנחנו דואגים לטפסים, לשמאות ולתיאומים – ואתם מקבלים רכב נקי ומתוקן. דברו איתנו עוד היום!
+
+### סניפים
+https://-e795340b.zappy5.app/branches
+שני מיקומים מרכזיים בלב הארץ: אורט ישראל בבת ים והפטיש 6 בנס ציונה. חנייה נוחה, שירות מהיר וצוות שמחכה לכם. בואו לבקר או נאסוף אתכם בחינם!
+
+### אודות
+https://-e795340b.zappy5.app/about
+חברה יציבה עם מוניטין ארצי, מתמחה בתיקוני פחחות וצבע לרכבים פרטיים ומסחריים. אנחנו מביאים ניסיון, אמינות ויחס אישי לכל לקוח. הכירו אותנו מקרוב!
+
+### צור קשר
+https://-e795340b.zappy5.app/contact
+מלאו פרטים, חייגו או שלחו הודעה – צוות אטיאס סנטר זמין לתת מענה מהיר, להציע הצעת מחיר משתלמת ולתאם איסוף חינם. הרכב שלכם בדרך לחזור לכביש!
+
+### Products
+https://-e795340b.zappy5.app/products
+המוצרים שלנו - אטיאס סנטר בע"מ
+
+### Product Detail
+https://-e795340b.zappy5.app/product/:slug
+פרטי המוצר - אטיאס סנטר בע"מ
+
+### Category
+https://-e795340b.zappy5.app/category/:slug
+מוצרים - אטיאס סנטר בע"מ
+
+### תודה שפניתם אלינו
+https://-e795340b.zappy5.app/thank-you
+אטיאס סנטר בע"מ - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://-e795340b.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-e795340b.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-e795340b.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About אטיאס סנטר בע"מ
+Atias Center Ltd. is a professional auto body and paint shop operating across Israel with two main locations in Bat Yam (Ort Israel St.) and Nes Ziona (HaPatish 6 St.). The business specializes in accident vehicle repairs for both private and commercial vehicles, works with all major insurance companies, and offers premium customer-centric services including free vehicle pickup and return as well as complimentary replacement vehicles. The brand aims to project a powerful, corporate-level image — trustworthy, professional, and nationwide — similar to large enterprise companies.
+
+## Target Audience
+- בעלי רכבים פרטיים ומסחריים מכל רחבי הארץ, לקוחות חברות ביטוח
+- בעלי רכבים פרטיים
+- בעלי רכבים מסחריים
+- לקוחות חברות ביטוח
+
+## Industry
+Auto Body & Paint Shop
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-e795340b.zappy5.app/sitemap.xml
+- Robots: https://-e795340b.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-e795340b.zappy5.app/llms-full.txt
+- Products (JSON): https://-e795340b.zappy5.app/products.json
+- Products (Google Merchant RSS): https://-e795340b.zappy5.app/product-feed.xml
