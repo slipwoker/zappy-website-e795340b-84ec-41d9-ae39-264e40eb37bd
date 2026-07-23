@@ -764,9 +764,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </style>
 </head>
 <body>
-
-
-    <div class="mobile-search-panel" id="mobile-search-panel">
+<div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off" />
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
@@ -791,7 +789,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0544736868" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
     </svg>
@@ -1276,7 +1274,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0544736868';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1545,7 +1543,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <h3 style="font-size: 1.375rem; font-weight: 700; line-height: 1.4; color: var(--text-dark); margin-bottom: 12px;">בת ים</h3>
           <address style="font-style: normal; color: var(--text-muted); font-size: 1rem; line-height: 1.7; margin-bottom: 8px;">
             <i class="fas fa-map-marker-alt" style="color: var(--accent); margin-inline-end: 8px; width: 16px; text-align: center; pointer-events: auto; cursor: pointer;" aria-hidden="true" data-element-type="icon" data-element-id="icon-1784824870428-vmrun9306" data-icon-type="fontawesome"></i>
-            <span style="color: rgb(26, 26, 26) !important;">אורט ישראל, בת ים</span>
+            <span style="color: rgb(26, 26, 26) !important;">רח' אורט ישראל 21, בת ים</span>
           </address>
           <h3><p><span style="font-weight: normal;"><font color="#18a058" face="Font Awesome 6 Free"><span style="font-size: 24px;">&nbsp;</span></font><span style="font-size: 0.875rem;">תיקוני תאונות, פחחות וצבע - לרכבים פרטיים ומסחריים</span></span></p></h3>
           <p><a href="#" class="index-locations-section__btn" style="display: inline-flex; align-items: center; gap: 8px; background: var(--primary); color: var(--text-light); padding: 12px 24px; border-radius: var(--radius-btn); font-weight: 600; text-decoration: none; transition: var(--transition-hover); margin-top: auto; align-self: flex-start;" data-element-type="button" data-element-id="btn-1784824870426-oaiqyhhtb" data-native-element="true">
@@ -1564,7 +1562,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <h3 style="font-size: 1.375rem; font-weight: 700; line-height: 1.4; color: var(--text-dark); margin-bottom: 12px;">נס ציונה</h3>
           <address style="font-style: normal; color: var(--text-muted); font-size: 1rem; line-height: 1.7; margin-bottom: 8px;">
             <i class="fas fa-map-marker-alt" style="color: var(--accent); margin-inline-end: 8px; width: 16px; text-align: center; pointer-events: auto; cursor: pointer;" aria-hidden="true" data-element-type="icon" data-element-id="icon-1784824870428-l5qb8ssp2" data-icon-type="fontawesome"></i>
-            <span style="color: rgb(26, 26, 26) !important;">הפטיש, נס ציונה</span>
+            <span style="color: rgb(26, 26, 26) !important;">רח' אורט ישראל 21, בת ים</span>
           </address>
           <p style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.6; margin-bottom: 24px;">
             &nbsp; &nbsp;תיקוני תאונות, פחחות וצבע - לכל סוגי הרכבים פרטיים ומסחריים&nbsp;&nbsp;</p>
@@ -1656,14 +1654,16 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </li><li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1784826628485-fzmvo6shv" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
             <span class="contact-text">0544736868</span>
-          </li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1784826628485-29b0jobct" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
-            <span class="contact-text"><span style="color: #ea580c !important"><span style="color: #808080 !important"><span style="color: #b3b3b3 !important"><span style="color: #b3b3b3 !important"><span style="color: #e5e5e5 !important">אורט ישראל 21, בת ים</span></span></span></span></span></span></a></li></ul>
+          </li><li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A8%D7%97'%20%D7%90%D7%95%D7%A8%D7%98%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%2021%2C%20%D7%91%D7%AA%20%D7%99%D7%9D" style="display:flex;align-items:flex-start;gap:inherit" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1784826628485-29b0jobct" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
+            <span class="contact-text">רח' אורט ישראל 21, בת ים</span></a></li></ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours"><li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">07:00–18:00</span></a></li><li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li><li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1695,7 +1695,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0544736868" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
