@@ -780,7 +780,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "e795340b-84ec-41d9-ae39-264e40eb37bd";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "e795340b-84ec-41d9-ae39-264e40eb37bd";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1294,7 +1294,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   
   <main id="main">
     <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-dark);" data-hero-type="fullscreen-scrim" id="index-hero-section">
-  <div id="zappy-carousel-1784824826211-p7kwlz" data-zappy-image-carousel="true" data-zappy-hero-carousel="true" data-interval="4000" class="zappy-carousel-hero"><div class="zappy-carousel-slide is-active" style=";;;opacity:1 !important;pointer-events:auto !important;z-index:1 !important;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1784822760189-n1xl4ctp9" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute; top: 0px !important; left: 0px !important; width: 100%; height: 100%; max-width: none; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 0 !important; overflow: hidden; inset: 0; max-height: none" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A wide, bright, professional auto body workshop interior. Clean polished concrete floors, organized tool cabinets, a recently repaired silver sedan with flawless paint finish being inspected by a technician in uniform. Soft natural light from large windows, visible professionalism and enterprise-level cleanliness. The main subject (car and technician) positioned on the right side of the frame." width="1200" height="600" src="/assets/site-image-index-hero-image-1.webp" alt="סדנת פחחות וצבע מקצועית של אטיאס סנטר" data-hero-background="true" data-element-type="image" data-element-id="img-1784822760189-n1xl4ctp9" style="object-position: 50% 50%; display: block !important; object-fit: cover; margin: 0; position: absolute; width: 100%; height: 100%; max-width: none; max-height: none; inset: 0" data-zappy-zoom="0.7" decoding="async" /></div></div></div>
+  <div id="zappy-carousel-1784824826211-p7kwlz" data-zappy-image-carousel="true" data-zappy-hero-carousel="true" data-interval="4000" class="zappy-carousel-hero"><div class="zappy-carousel-slide is-active" style=";;;opacity:1 !important;pointer-events:auto !important;z-index:1 !important;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1784822760189-n1xl4ctp9" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 0 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A wide, bright, professional auto body workshop interior. Clean polished concrete floors, organized tool cabinets, a recently repaired silver sedan with flawless paint finish being inspected by a technician in uniform. Soft natural light from large windows, visible professionalism and enterprise-level cleanliness. The main subject (car and technician) positioned on the right side of the frame." width="1200" height="600" src="/assets/site-image-index-hero-image-1.webp" alt="סדנת פחחות וצבע מקצועית של אטיאס סנטר" data-hero-background="true" data-element-type="image" data-element-id="img-1784822760189-n1xl4ctp9" style="object-position: 50% 50%; display: block !important; object-fit: fill !important; margin: 0px !important; position: absolute !important; left: 0% !important; top: -8.72622% !important; width: 100% !important; height: 117.452% !important; max-width: none !important; max-height: none !important;" data-zappy-zoom="0.7" decoding="async" /></div></div></div>
   
   <div class="hero-fade-content">
     <p class="hero-eyebrow">תיקוני תאונות לכל סוגי הרכבים</p>
@@ -1428,12 +1428,12 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section data-band-index="2" class="index-process-section" data-layout-spec="בית-process">
+<section data-band-index="2" class="index-process-section" data-layout-spec="בית-process" id="index-process-section">
   <div class="index-process-section__container">
     <!-- Intro Column -->
     <div class="index-process-section__intro">
-      <span class="index-process-section__label">התהליך שלנו</span>
-      <h2 class="index-process-section__heading">טיפול בתאונה<br />מעולם לא היה פשוט יותר</h2>
+      <p class="zappy-editable"><span class="index-process-section__label">התהליך שלנו</span>
+      </p><h2 class="index-process-section__heading">טיפול בתאונה<br />מעולם לא היה פשוט יותר</h2>
       <p class="index-process-section__description">
         באטיאס סנטר אנחנו מלווים אתכם בכל שלב, מרגע התאונה ועד להחזרת הרכב במצב מושלם. 
         הצוות המקצועי שלנו מטפל מול כל חברות הביטוח המובילות, דואג לאישורים הנדרשים, ומספק לכם שירות 
@@ -1445,25 +1445,25 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
     <!-- Steps Column -->
     <div class="index-process-section__steps">
-      <div class="index-process-section__step">
+      <div class="index-process-section__step zappy-grid-item-nested-grid" data-grid-item-index="0">
         <div class="index-process-section__step-marker">
-          <span class="index-process-section__step-number">01</span>
-          <div class="index-process-section__step-icon">
+          <p class="zappy-editable"><span class="index-process-section__step-number">01</span>
+          </p><div class="index-process-section__step-icon">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
           </div>
         </div>
         <div class="index-process-section__step-content">
           <h3 class="index-process-section__step-title">יצירת קשר והכוונה</h3>
-          <p class="index-process-section__step-text">
-            צרו איתנו קשר טלפוני או הגיעו לאחד הסניפים. נאסוף פרטים, נדריך אתכם לגבי תהליך התביעה מול הביטוח, ונתאם הגעה נוחה.
+          <p class="index-process-section__step-text" style>
+            צרו איתנו קשר טלפוני, נדריך אתכם לגבי תהליך התביעה מול הביטוח, ונתאם הגעה נוחה.
           </p>
         </div>
       </div>
 
-      <div class="index-process-section__step">
+      <div class="index-process-section__step zappy-grid-item-nested-grid" data-grid-item-index="1">
         <div class="index-process-section__step-marker">
-          <span class="index-process-section__step-number">02</span>
-          <div class="index-process-section__step-icon">
+          <p class="zappy-editable"><span class="index-process-section__step-number">02</span>
+          </p><div class="index-process-section__step-icon">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
           </div>
         </div>
@@ -1475,10 +1475,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         </div>
       </div>
 
-      <div class="index-process-section__step">
+      <div class="index-process-section__step zappy-grid-item-nested-grid" data-grid-item-index="2">
         <div class="index-process-section__step-marker">
-          <span class="index-process-section__step-number">03</span>
-          <div class="index-process-section__step-icon">
+          <p class="zappy-editable"><span class="index-process-section__step-number">03</span>
+          </p><div class="index-process-section__step-icon">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
           </div>
         </div>
@@ -1490,10 +1490,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         </div>
       </div>
 
-      <div class="index-process-section__step">
+      <div class="index-process-section__step zappy-grid-item-nested-grid" data-grid-item-index="3">
         <div class="index-process-section__step-marker">
-          <span class="index-process-section__step-number">04</span>
-          <div class="index-process-section__step-icon">
+          <p class="zappy-editable"><span class="index-process-section__step-number">04</span>
+          </p><div class="index-process-section__step-icon">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           </div>
         </div>
@@ -1508,7 +1508,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 
   <!-- Decorative image behind steps -->
-  <img loading="lazy" decoding="async" data-placeholder="index-process-image-1" data-context="A professional auto body shop worker in blue overalls inspecting a freshly painted car panel under bright workshop lighting, with spray booth background, conveying precision and quality control." width="600" height="400" src="/assets/site-image-index-process-image-1.webp" alt="בקרת איכות במוסך פחחות וצבע" class="index-process-section__bg-image" aria-hidden="true" fetchpriority="low" />
+  <img loading="lazy" decoding="async" data-placeholder="index-process-image-1" data-context="A professional auto body shop worker in blue overalls inspecting a freshly painted car panel under bright workshop lighting, with spray booth background, conveying precision and quality control." width="600" height="400" src="/assets/site-image-index-process-image-1.webp" alt="בקרת איכות במוסך פחחות וצבע" class="index-process-section__bg-image" aria-hidden="true" data-element-type="image" data-element-id="img-1784824870429-8wwnv5j12" fetchpriority="low" />
 
   <!-- Bottom divider: navy angled panel overlap -->
   <div class="index-process-section__divider-wrapper" aria-hidden="true">
