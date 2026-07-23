@@ -780,13 +780,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "e795340b-84ec-41d9-ae39-264e40eb37bd";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "e795340b-84ec-41d9-ae39-264e40eb37bd";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1319,10 +1319,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <div class="container">
         <h2 class="section-title">מוצרים מומלצים</h2>
         <div class="product-grid featured-grid" id="zappy-featured-products">
-          <div class="loading-products">טוען מוצרים...</div>
+          
         </div>
         <div class="view-all-products">
-          <a href="/products" class="btn btn-primary">צפה בכל המוצרים →</a>
+          <a href="/products" class="btn btn-primary" data-element-type="button" data-element-id="btn-1784822760185-sx5rv8c4l" data-native-element="true">צפה בכל המוצרים →</a>
         </div>
       </div>
     </section>
@@ -1535,7 +1535,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
 
     <!-- Cards Grid -->
-    <div class="index-locations-section__grid" style="--zappy-grid-cols: repeat(2, 1fr); display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-card-gap); direction: rtl;" data-zappy-explicit-columns="true">
+    <div class="index-locations-section__grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-card-gap); direction: rtl;">
       
       <!-- Card 1: Bat Yam -->
       <article class="index-locations-section__card" style="background: var(--bg-light); border-radius: var(--radius-card); box-shadow: var(--shadow-card); overflow: hidden; display: flex; flex-direction: column; transition: var(--transition-hover);">
