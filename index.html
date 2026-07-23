@@ -780,13 +780,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "e795340b-84ec-41d9-ae39-264e40eb37bd";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "e795340b-84ec-41d9-ae39-264e40eb37bd";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1294,7 +1294,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   
   <main id="main">
     <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-dark);" data-hero-type="fullscreen-scrim" id="index-hero-section">
-  <div id="zappy-carousel-1784824826211-p7kwlz" data-zappy-image-carousel="true" data-zappy-hero-carousel="true" data-interval="4000" class="zappy-carousel-hero"><div class="zappy-carousel-slide is-active" style=";;;opacity:1 !important;pointer-events:auto !important;z-index:1 !important;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1784822760189-n1xl4ctp9" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute; top: 0px !important; left: 0px !important; width: 100%; height: 100%; max-width: none; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 0 !important; overflow: hidden; inset: 0; max-height: none" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A wide, bright, professional auto body workshop interior. Clean polished concrete floors, organized tool cabinets, a recently repaired silver sedan with flawless paint finish being inspected by a technician in uniform. Soft natural light from large windows, visible professionalism and enterprise-level cleanliness. The main subject (car and technician) positioned on the right side of the frame." width="1200" height="600" src="/assets/site-image-index-hero-image-1.webp" alt="סדנת פחחות וצבע מקצועית של אטיאס סנטר" data-hero-background="true" data-element-type="image" data-element-id="img-1784822760189-n1xl4ctp9" style="object-position: 50% 50%; display: block !important; object-fit: cover; margin: 0; position: absolute; width: 100%; height: 100%; max-width: none; max-height: none; inset: 0" data-zappy-zoom="0.7" decoding="async" /></div></div></div>
+  <div id="zappy-carousel-1784824826211-p7kwlz" data-zappy-image-carousel="true" data-zappy-hero-carousel="true" data-interval="4000" class="zappy-carousel-hero"><div class="zappy-carousel-slide is-active" style=";;;opacity:1 !important;pointer-events:auto !important;z-index:1 !important;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1784822760189-n1xl4ctp9" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 0 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A wide, bright, professional auto body workshop interior. Clean polished concrete floors, organized tool cabinets, a recently repaired silver sedan with flawless paint finish being inspected by a technician in uniform. Soft natural light from large windows, visible professionalism and enterprise-level cleanliness. The main subject (car and technician) positioned on the right side of the frame." width="1200" height="600" src="/assets/site-image-index-hero-image-1.webp" alt="סדנת פחחות וצבע מקצועית של אטיאס סנטר" data-hero-background="true" data-element-type="image" data-element-id="img-1784822760189-n1xl4ctp9" style="object-position: 50% 50%; display: block !important; object-fit: fill !important; margin: 0px !important; position: absolute !important; left: 0% !important; top: -8.72622% !important; width: 100% !important; height: 117.452% !important; max-width: none !important; max-height: none !important;" data-zappy-zoom="0.7" decoding="async" /></div></div></div>
   
   <div class="hero-fade-content">
     <p class="hero-eyebrow">תיקוני תאונות לכל סוגי הרכבים</p>
@@ -1454,7 +1454,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         </div>
         <div class="index-process-section__step-content">
           <h3 class="index-process-section__step-title">יצירת קשר והכוונה</h3>
-          <p class="index-process-section__step-text">
+          <p class="index-process-section__step-text" style>
             צרו איתנו קשר טלפוני, נדריך אתכם לגבי כל תהליך התביעה מול הביטוח.</p>
         </div>
       </div>
@@ -1468,7 +1468,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         </div>
         <div class="index-process-section__step-content">
           <h3 class="index-process-section__step-title">איסוף הרכב או הגעה למוסך</h3>
-          <p class="index-process-section__step-text">
+          <p class="index-process-section__step-text" style>
             נגיע לאסוף את רכבכם ללא עלות מכל מקום בארץ, או שנמתין לכם באחד מסניפי אטיאס סנטר. תקבלו רכב חלופי להמשך התנהלות שוטפת.
           </p>
         </div>
@@ -1482,8 +1482,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </div>
         </div>
         <div class="index-process-section__step-content">
-          <h3 class="index-process-section__step-title">תיקון פחחות וצבע מקורי</h3>
-          <p class="index-process-section__step-text">
+          <h3 class="index-process-section__step-title" style>תיקון פחחות וצבע מקורי</h3>
+          <p class="index-process-section__step-text" style>
             צוות המומחים שלנו מבצע תיקוני פחחות וצבע ברמה הגבוהה ביותר, תוך שימוש בציוד מתקדם ובחומרים הכי איכותיים ברמת מקור, תוך תיאום מלא מול חברת הביטוח.
           </p>
         </div>
@@ -1548,7 +1548,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             <span style="color: rgb(26, 26, 26) !important;">אורט ישראל, בת ים</span>
           </address>
           <h3><span style="font-weight: normal;"><font color="#18a058" face="Font Awesome 6 Free"><span style="font-size: 24px;">&nbsp;</span></font><span style="font-size: 0.875rem;">תיקוני תאונות, פחחות וצבע - לרכבים פרטיים ומסחריים</span></span></h3>
-          <p><a href="#" class="index-locations-section__btn" style="display: inline-flex; align-items: center; gap: 8px; background: var(--primary); color: var(--text-light); padding: 12px 24px; border-radius: var(--radius-btn); font-weight: 600; text-decoration: none; transition: var(--transition-hover); margin-top: auto; align-self: flex-start;" data-element-type="button" data-element-id="btn-1784824870426-oaiqyhhtb" data-native-element="true">
+          <p style><a href="#" class="index-locations-section__btn" style="display: inline-flex; align-items: center; gap: 8px; background: var(--primary); color: var(--text-light); padding: 12px 24px; border-radius: var(--radius-btn); font-weight: 600; text-decoration: none; transition: var(--transition-hover); margin-top: auto; align-self: flex-start;" data-element-type="button" data-element-id="btn-1784824870426-oaiqyhhtb" data-native-element="true">
             <span>צור קשר</span>
             <i class="fas fa-arrow-left" aria-hidden="true" data-element-type="icon" data-icon-type="fontawesome" data-element-id="icon-1784824870450-jccj8siqy" style="pointer-events: auto; cursor: pointer;"></i>
           </a>
@@ -1558,7 +1558,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <!-- Card 2: Nes Ziona -->
       <article class="index-locations-section__card" style="background: var(--bg-light); border-radius: var(--radius-card); box-shadow: var(--shadow-card); overflow: hidden; display: flex; flex-direction: column; transition: var(--transition-hover);" data-grid-item-index="1">
         <figure class="index-locations-section__card-media" style="margin: 0; overflow: hidden; aspect-ratio: 16 / 9;">
-          <div id="zappy-carousel-1784826823007-wo6d16" data-zappy-image-carousel="true" data-zappy-hero-carousel="true" data-interval="4000" class="zappy-carousel-inline" style="position:relative;overflow:hidden;width:572px;max-width:100%;aspect-ratio:1.7778;"><div class="zappy-carousel-slide is-active" style=";;;opacity:1 !important;pointer-events:auto !important;z-index:1 !important;"><img loading="lazy" decoding="async" data-placeholder="index-locations-image-2" data-context="Professional auto body repair workshop in Nes Ziona, Israel at HaPatish 6 Street. Interior view showing clean, organized workspace with modern paint booth equipment, a car being painted, and technicians in uniform. Bright industrial lighting, corporate navy and white color scheme." width="600" height="400" src="/assets/site-image-index-locations-image-2.webp" alt="סניף נס ציונה - רחוב הפטיש 6" style="width: 100%; height: 100%; object-fit: cover; display: block; object-position: 50% 50%; position: absolute; max-width: none; max-height: none; margin: 0; inset: 0" data-element-type="image" data-element-id="img-1784824870429-eqei6pj40" data-zappy-object-position="50% 50%" data-zappy-zoom="1" fetchpriority="low" /><a class="zappy-carousel-slide-link" data-zappy-mobile-click-action="none" data-zappy-click-action="none" style="pointer-events: none;"></a></div></div>
+          <div id="zappy-carousel-1784826823007-wo6d16" data-zappy-image-carousel="true" data-zappy-hero-carousel="true" data-interval="4000" class="zappy-carousel-inline" style="position:relative;overflow:hidden;width:572px;max-width:100%;aspect-ratio:1.7778;"><div class="zappy-carousel-slide is-active" style=";;;opacity:1 !important;pointer-events:auto !important;z-index:1 !important;"><img loading="lazy" decoding="async" data-placeholder="index-locations-image-2" data-context="Professional auto body repair workshop in Nes Ziona, Israel at HaPatish 6 Street. Interior view showing clean, organized workspace with modern paint booth equipment, a car being painted, and technicians in uniform. Bright industrial lighting, corporate navy and white color scheme." width="600" height="400" src="/assets/site-image-index-locations-image-2.webp" alt="סניף נס ציונה - רחוב הפטיש 6" style="width: 100%; height: 100%; object-fit: cover; display: block; object-position: 50% 50% !important;" data-element-type="image" data-element-id="img-1784824870429-eqei6pj40" data-zappy-object-position="50% 50%" data-zappy-zoom="1" fetchpriority="low" /><a class="zappy-carousel-slide-link" data-zappy-mobile-click-action="none" data-zappy-click-action="none" style="pointer-events: none;"></a></div></div>
         </figure>
         <div class="index-locations-section__card-body" style="padding: var(--spacing-card-padding); display: flex; flex-direction: column; flex-grow: 1;">
           <h3 style="font-size: 1.375rem; font-weight: 700; line-height: 1.4; color: var(--text-dark); margin-bottom: 12px;">נס ציונה</h3>
@@ -1591,7 +1591,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <div class="index-cta-section__container">
     <div class="index-cta-section__content">
       <h2 class="index-cta-section__heading">הרכב שלך בידיים מקצועיות — אטיאס סנטר</h2>
-      <p class="index-cta-section__text">נקלעתם לתאונה? צריכים תיקון פחחות וצבע מקצועי? אנחנו כאן בשבילכם. אטיאס סנטר בע"מ מספקת שירות איסוף והחזרת רכב חינם, רכב חלופי ללא עלות, ועבודה ישירה מול כל חברות הביטוח - כך שתוכלו לחזור לכביש בראש שקט.</p>
+      <p class="index-cta-section__text" style>נקלעתם לתאונה? צריכים תיקון פחחות וצבע מקצועי? אנחנו כאן בשבילכם. אטיאס סנטר בע"מ מספקת שירות איסוף והחזרת רכב חינם, רכב חלופי ללא עלות, ועבודה ישירה מול כל חברות הביטוח - כך שתוכלו לחזור לכביש בראש שקט.</p>
       <div class="index-cta-section__actions">
         <a href="/contact" class="index-cta-section__btn index-cta-section__btn--primary" data-element-type="button" data-element-id="btn-1784826628484-nrkmggcbq" data-native-element="true">
           <span>צור קשר עכשיו</span>
@@ -1630,8 +1630,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/image-auto-body-paint-shop-logo.webp" alt="אטיאס סנטר בע&quot;מ" class="logo" decoding="async" width="35" height="35" />
-        <p class="footer-tagline">אטיאס סנטר בע"מ – מומחים בתיקוני פחחות וצבע לרכב. שירות מקצועי, אמין ומהיר בפריסה ארצית עם ליווי מלא מול חברות הביטוח.</p>
+        <img src="/assets/image-auto-body-paint-shop-logo.webp" alt="אטיאס סנטר בע&quot;מ" class="logo" data-element-type="image" data-element-id="img-1784826628487-lppeggn1i" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
+        <p class="footer-tagline" style>אטיאס סנטר בע"מ - מומחים בתיקוני פחחות וצבע לרכב. שירות מקצועי, אמין ומהיר בפריסה ארצית עם ליווי מלא מול חברות הביטוח.</p>
       </div>
 
       <!-- Quick Links -->
@@ -1652,14 +1652,14 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <h4>צור קשר</h4>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1784826628485-jgfag6ul7" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1784826628485-fzmvo6shv" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1784826628485-29b0jobct" data-icon-type="fontawesome"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
         </ul>
       </div>
@@ -1667,11 +1667,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours" style><li><a href="/" style><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">07:00–18:00</span></a></li><li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li><li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1679,8 +1675,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
           <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1784826628486-df0fycg0g" data-icon-type="fontawesome"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1784826628486-t14huygfc" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
     </div>
