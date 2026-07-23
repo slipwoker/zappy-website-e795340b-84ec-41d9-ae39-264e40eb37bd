@@ -7,57 +7,57 @@
 ## Pages
 
 ### בית
-https://-e795340b.zappy5.app
+https://example.com
 מוסך פחחות וצבע מוביל בישראל לתיקוני תאונות לרכב פרטי ומסחרי. עובדים עם כל חברות הביטוח, איסוף והחזרה חינם ורכב חלופי ללא עלות. חייגו עכשיו!
 
 ### שירותים
-https://-e795340b.zappy5.app/services
+https://example.com/services
 מחפשים תיקון תאונות אמין? צוות המומחים שלנו מספק שירותי פחחות, צבע והתאמת חלקים בסטנדרט מפעלי. התקשרו לייעוץ חינם והזמנת שירות עד הבית!
 
 ### ביטוח ותמיכת לקוחות
-https://-e795340b.zappy5.app/insurance-support
+https://example.com/insurance-support
 עבודה ישירה מול כל חברות הביטוח המובילות בישראל. אנחנו דואגים לטפסים, לשמאות ולתיאומים – ואתם מקבלים רכב נקי ומתוקן. דברו איתנו עוד היום!
 
 ### סניפים
-https://-e795340b.zappy5.app/branches
+https://example.com/branches
 שני מיקומים מרכזיים בלב הארץ: אורט ישראל בבת ים והפטיש 6 בנס ציונה. חנייה נוחה, שירות מהיר וצוות שמחכה לכם. בואו לבקר או נאסוף אתכם בחינם!
 
 ### אודות
-https://-e795340b.zappy5.app/about
+https://example.com/about
 חברה יציבה עם מוניטין ארצי, מתמחה בתיקוני פחחות וצבע לרכבים פרטיים ומסחריים. אנחנו מביאים ניסיון, אמינות ויחס אישי לכל לקוח. הכירו אותנו מקרוב!
 
 ### צור קשר
-https://-e795340b.zappy5.app/contact
+https://example.com/contact
 מלאו פרטים, חייגו או שלחו הודעה – צוות אטיאס סנטר זמין לתת מענה מהיר, להציע הצעת מחיר משתלמת ולתאם איסוף חינם. הרכב שלכם בדרך לחזור לכביש!
 
 ### Products
-https://-e795340b.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - אטיאס סנטר בע"מ
 
 ### Product Detail
-https://-e795340b.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - אטיאס סנטר בע"מ
 
 ### Category
-https://-e795340b.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - אטיאס סנטר בע"מ
 
 ### תודה שפניתם אלינו
-https://-e795340b.zappy5.app/thank-you
+https://example.com/thank-you
 אטיאס סנטר בע"מ - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-e795340b.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-e795340b.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-e795340b.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -86,8 +86,8 @@ Auto Body & Paint Shop
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-e795340b.zappy5.app/sitemap.xml
-- Robots: https://-e795340b.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-e795340b.zappy5.app/llms-full.txt
-- Products (JSON): https://-e795340b.zappy5.app/products.json
-- Products (Google Merchant RSS): https://-e795340b.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
