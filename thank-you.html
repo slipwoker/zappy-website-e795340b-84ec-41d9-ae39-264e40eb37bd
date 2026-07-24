@@ -1041,13 +1041,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "e795340b-84ec-41d9-ae39-264e40eb37bd";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "e795340b-84ec-41d9-ae39-264e40eb37bd";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1073,7 +1073,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <ul class="sub-menu" id="zappy-nav-category-links" dir="rtl">
         <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
-      </ul>
+      <li data-category-id="ae9843eb-5150-4b2f-a48a-cb40df5dd3d8" data-category-slug="works"><a href="/category/works" dir="rtl">עבודות</a></li></ul>
     </li>
   <li><a href="/">בית</a></li><li><a href="/services">שירותים</a></li><li><a href="/insurance-support">ביטוח ותמיכת לקוחות</a></li><li><a href="/branches">סניפים</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off" />
@@ -1597,8 +1597,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/image-auto-body-paint-shop-logo.webp" alt="אטיאס סנטר בע&quot;מ" class="logo" data-element-type="image" data-element-id="img-1784826628487-lppeggn1i" data-zappy-footer-image="true" decoding="async" width="35" height="35" />
-        <p class="footer-tagline">אטיאס סנטר בע"מ - מומחים בתיקוני פחחות וצבע לרכב. שירות מקצועי, אמין ומהיר בפריסה ארצית עם ליווי מלא מול חברות הביטוח.</p>
+        <img src="/assets/image-auto-body-paint-shop-logo.webp" alt="אטיאס סנטר בע&quot;מ" class="logo" data-element-type="image" data-element-id="img-1784826628487-lppeggn1i" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
+        <p class="footer-tagline" style>אטיאס סנטר בע"מ - מומחים בתיקוני פחחות וצבע לרכב. שירות מקצועי, אמין ומהיר בפריסה ארצית עם ליווי מלא מול חברות הביטוח.</p>
       </div>
 
       <!-- Quick Links -->
@@ -1617,20 +1617,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <!-- Contact Info -->
       <div class="footer-col footer-contact-col">
         <h4>צור קשר</h4>
-        <ul class="footer-contact"><li>
-            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1784826628485-jgfag6ul7" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
-            <span class="contact-text">aocenter@gmail.com</span>
-          </li><li>
-            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1784826628485-fzmvo6shv" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
-            <span class="contact-text">0544736868</span>
-          </li><li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A8%D7%97'%20%D7%90%D7%95%D7%A8%D7%98%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%2021%2C%20%D7%91%D7%AA%20%D7%99%D7%9D" style="display:flex;align-items:flex-start;gap:inherit" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1784826628485-29b0jobct" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
-            <span class="contact-text">רח' אורט ישראל 21, בת ים</span></a></li></ul>
+        <ul class="footer-contact" style><li>ac.contact@outlook.co.il&nbsp;</li><li>טל': 054-4736868&nbsp;</li><li>רח' אורט ישראל 21, בת ים</li></ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+        <ul class="footer-hours" style><li><a href="/" style><span class="hours-day">יום א’ - ה'</span> <span class="hours-time">סגור</span></a></li>
 <li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
 <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
@@ -1658,7 +1651,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
               מדיניות החזרות
             </a>
         <a href="/accessibility">נגישות</a>
-        <a href="https://zappy5.com" target="_blank" class="zappy-attribution"><br /></a>
+        <a href="https://zappy5.com" target="_blank" class="zappy-attribution" style><br /></a>
       </div>
     </div>
   </div>
