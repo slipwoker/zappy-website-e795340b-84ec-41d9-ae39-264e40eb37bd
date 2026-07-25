@@ -7,57 +7,57 @@
 ## Pages
 
 ### בית
-https://example.com
+https://atias-center-ltd.zappy5.app
 מוסך פחחות וצבע מוביל בישראל לתיקוני תאונות לרכב פרטי ומסחרי. עובדים עם כל חברות הביטוח, איסוף והחזרה חינם ורכב חלופי ללא עלות. חייגו עכשיו!
 
 ### שירותים
-https://example.com/services
+https://atias-center-ltd.zappy5.app/services
 מחפשים תיקון תאונות אמין? צוות המומחים שלנו מספק שירותי פחחות, צבע והתאמת חלקים בסטנדרט מפעלי. התקשרו לייעוץ חינם והזמנת שירות עד הבית!
 
 ### ביטוח
-https://example.com/insurance
+https://atias-center-ltd.zappy5.app/insurance
 עבודה ישירה מול כל חברות הביטוח המובילות בישראל. אנחנו דואגים לטפסים, לשמאות ולתיאומים – ואתם מקבלים רכב נקי ומתוקן. דברו איתנו עוד היום!
 
 ### סניפים
-https://example.com/branches
+https://atias-center-ltd.zappy5.app/branches
 שני מיקומים מרכזיים בלב הארץ: אורט ישראל בבת ים והפטיש 6 בנס ציונה. חנייה נוחה, שירות מהיר וצוות שמחכה לכם. בואו לבקר או נאסוף אתכם בחינם!
 
 ### אודות
-https://example.com/about
+https://atias-center-ltd.zappy5.app/about
 חברה יציבה עם מוניטין ארצי, מתמחה בתיקוני פחחות וצבע לרכבים פרטיים ומסחריים. אנחנו מביאים ניסיון, אמינות ויחס אישי לכל לקוח. הכירו אותנו מקרוב!
 
 ### צור קשר
-https://example.com/contact
+https://atias-center-ltd.zappy5.app/contact
 מלאו פרטים, חייגו או שלחו הודעה – צוות אטיאס סנטר זמין לתת מענה מהיר, להציע הצעת מחיר משתלמת ולתאם איסוף חינם. הרכב שלכם בדרך לחזור לכביש!
 
 ### עבודות
-https://example.com/products
+https://atias-center-ltd.zappy5.app/products
 המוצרים שלנו - אטיאס סנטר בע"מ
 
 ### Product Detail
-https://example.com/product/:slug
+https://atias-center-ltd.zappy5.app/product/:slug
 פרטי המוצר - אטיאס סנטר בע"מ
 
 ### Category
-https://example.com/category/:slug
+https://atias-center-ltd.zappy5.app/category/:slug
 מוצרים - אטיאס סנטר בע"מ
 
 ### תודה שפניתם אלינו
-https://example.com/thank-you
+https://atias-center-ltd.zappy5.app/thank-you
 אטיאס סנטר בע"מ - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://atias-center-ltd.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://atias-center-ltd.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://atias-center-ltd.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -86,8 +86,8 @@ Auto Body & Paint Shop
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://atias-center-ltd.zappy5.app/sitemap.xml
+- Robots: https://atias-center-ltd.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://atias-center-ltd.zappy5.app/llms-full.txt
+- Products (JSON): https://atias-center-ltd.zappy5.app/products.json
+- Products (Google Merchant RSS): https://atias-center-ltd.zappy5.app/product-feed.xml

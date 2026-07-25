@@ -2,13 +2,13 @@
 
 Atias Center Ltd. is a professional auto body and paint shop operating across Israel with two main locations in Bat Yam (Ort Israel St.) and Nes Ziona (HaPatish 6 St.). The business specializes in accident vehicle repairs for both private and commercial vehicles, works with all major insurance companies, and offers premium customer-centric services including free vehicle pickup and return as well as complimentary replacement vehicles. The brand aims to project a powerful, corporate-level image — trustworthy, professional, and nationwide — similar to large enterprise companies.
 
-Source: https://example.com
+Source: https://atias-center-ltd.zappy5.app
 
 ---
 
 ## תיקון רכב מקצועי בפריסה ארצית — אטיאס סנטר בע&quot;מ
 
-URL: https://example.com
+URL: https://atias-center-ltd.zappy5.app
 Description: מוסך פחחות וצבע מוביל בישראל לתיקוני תאונות לרכב פרטי ומסחרי. עובדים עם כל חברות הביטוח, איסוף והחזרה חינם ורכב חלופי ללא עלות. חייגו עכשיו!
 
 תיקון רכב מקצועי בפריסה ארצית — אטיאס סנטר בע"מ
@@ -506,7 +506,7 @@ Description: מוסך פחחות וצבע מוביל בישראל לתיקוני
 
 ## שירותי פחחות וצבע שמרימים את הרכב שלך — אטיאס סנטר בע&quot;מ
 
-URL: https://example.com/services
+URL: https://atias-center-ltd.zappy5.app/services
 Description: מחפשים תיקון תאונות אמין? צוות המומחים שלנו מספק שירותי פחחות, צבע והתאמת חלקים בסטנדרט מפעלי. התקשרו לייעוץ חינם והזמנת שירות עד הבית!
 
 שירותי פחחות וצבע שמרימים את הרכב שלך — אטיאס סנטר בע"מ
@@ -886,7 +886,7 @@ Description: מחפשים תיקון תאונות אמין? צוות המומח�
 
 ## מטפלים לך בביטוח – תיקון רכב בלי כאב ראש — אטיאס סנטר בע&quot;מ
 
-URL: https://example.com/insurance
+URL: https://atias-center-ltd.zappy5.app/insurance
 Description: עבודה ישירה מול כל חברות הביטוח המובילות בישראל. אנחנו דואגים לטפסים, לשמאות ולתיאומים – ואתם מקבלים רכב נקי ומתוקן. דברו איתנו עוד היום!
 
 ביטוח
@@ -1305,7 +1305,7 @@ Description: עבודה ישירה מול כל חברות הביטוח המוב�
 
 ## מגיעים אליכם – סניפים בבת ים ונס ציונה — אטיאס סנטר בע&quot;מ
 
-URL: https://example.com/branches
+URL: https://atias-center-ltd.zappy5.app/branches
 Description: שני מיקומים מרכזיים בלב הארץ: אורט ישראל בבת ים והפטיש 6 בנס ציונה. חנייה נוחה, שירות מהיר וצוות שמחכה לכם. בואו לבקר או נאסוף אתכם בחינם!
 
 מגיעים אליכם – סניפים בבת ים ונס ציונה — אטיאס סנטר בע"מ
@@ -1670,7 +1670,7 @@ Description: שני מיקומים מרכזיים בלב הארץ: אורט יש
 
 ## הסיפור של אטיאס סנטר – מובילים בתיקון רכב — אטיאס סנטר בע&quot;מ
 
-URL: https://example.com/about
+URL: https://atias-center-ltd.zappy5.app/about
 Description: חברה יציבה עם מוניטין ארצי, מתמחה בתיקוני פחחות וצבע לרכבים פרטיים ומסחריים. אנחנו מביאים ניסיון, אמינות ויחס אישי לכל לקוח. הכירו אותנו מקרוב!
 
 הסיפור של אטיאס סנטר – מובילים בתיקון רכב — אטיאס סנטר בע"מ
@@ -2046,7 +2046,7 @@ Description: חברה יציבה עם מוניטין ארצי, מתמחה בתי
 
 ## רוצים רכב כמו חדש? צרו קשר עכשיו — אטיאס סנטר בע&quot;מ
 
-URL: https://example.com/contact
+URL: https://atias-center-ltd.zappy5.app/contact
 Description: מלאו פרטים, חייגו או שלחו הודעה – צוות אטיאס סנטר זמין לתת מענה מהיר, להציע הצעת מחיר משתלמת ולתאם איסוף חינם. הרכב שלכם בדרך לחזור לכביש!
 
 רוצים רכב כמו חדש? צרו קשר עכשיו — אטיאס סנטר בע"מ
@@ -2326,7 +2326,7 @@ Description: מלאו פרטים, חייגו או שלחו הודעה – צוו
 
 ## מוצרים
 
-URL: https://example.com/products
+URL: https://atias-center-ltd.zappy5.app/products
 Description: המוצרים שלנו - אטיאס סנטר בע"מ
 
 עבודות
@@ -2641,7 +2641,7 @@ Description: המוצרים שלנו - אטיאס סנטר בע"מ
 
 ## פרטי המוצר
 
-URL: https://example.com/product/:slug
+URL: https://atias-center-ltd.zappy5.app/product/:slug
 Description: פרטי המוצר - אטיאס סנטר בע"מ
 
 פרטי המוצר - אטיאס סנטר בע"מ
@@ -2820,7 +2820,7 @@ Description: פרטי המוצר - אטיאס סנטר בע"מ
 
 ## מוצרים
 
-URL: https://example.com/category/:slug
+URL: https://atias-center-ltd.zappy5.app/category/:slug
 Description: מוצרים - אטיאס סנטר בע"מ
 
 מוצרים - אטיאס סנטר בע"מ
@@ -3023,7 +3023,7 @@ Description: מוצרים - אטיאס סנטר בע"מ
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://atias-center-ltd.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -3271,7 +3271,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://atias-center-ltd.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -3528,7 +3528,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://atias-center-ltd.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -3804,7 +3804,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה שפניתם אלינו
 
-URL: https://example.com/thank-you
+URL: https://atias-center-ltd.zappy5.app/thank-you
 Description: אטיאס סנטר בע"מ - תודה שפניתם אלינו
 
 תודה שפניתם אלינו
