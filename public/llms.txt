@@ -30,8 +30,8 @@ https://example.com/about
 https://example.com/contact
 מלאו פרטים, חייגו או שלחו הודעה – צוות אטיאס סנטר זמין לתת מענה מהיר, להציע הצעת מחיר משתלמת ולתאם איסוף חינם. הרכב שלכם בדרך לחזור לכביש!
 
-### Products
-https://example.com/products
+### עבודות
+https://example.com/labor
 המוצרים שלנו - אטיאס סנטר בע"מ
 
 ### Product Detail
