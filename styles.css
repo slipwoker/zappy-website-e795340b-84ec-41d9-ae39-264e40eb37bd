@@ -1712,12 +1712,13 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 
 .footer-hours li {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
   margin-bottom: 0.65rem;
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.7);
+  flex-direction: column;
 }
 
 .hours-day {
