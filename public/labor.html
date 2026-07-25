@@ -827,174 +827,117 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </nav>
   <main class="page-container ecommerce-page">
     
-        <section class="products-section">
-          <h1 id="products-page-title">המוצרים שלנו</h1>
-          <script>/* ZAPPY_PRODUCTS_SEARCH_TITLE_BOOTSTRAP */(function(){try{var params=new URLSearchParams(window.location.search);var direct=(params.get('search')||'').trim();var page=params.get('page')||'';var nested='';if(page){try{nested=(new URL(page,window.location.origin).searchParams.get('search')||'').trim();}catch(e){}}if(!direct&&!nested)return;var title=document.getElementById('products-page-title');if(!title)return;var label="תוצאות חיפוש";if((title.textContent||'').trim()!==label)title.textContent=label;title.setAttribute('data-search-title-active','true');}catch(e){}})();</script>
-          <div class="products-toolbar" id="products-toolbar" style="display:none;">
-            <button class="sidebar-toggle-btn" id="sidebar-toggle-btn" style="display:none;" aria-label="סינון">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h4"/></svg>
-              <span>סינון</span>
-            </button>
-            <div class="toolbar-left">
-              <span class="products-count" id="products-count"></span>
-            </div>
-            <div class="toolbar-right">
-              <div class="sort-control" id="sort-control" style="display:none;">
-                <select id="sort-select" aria-label="מיון">
-                </select>
-              </div>
-              <div class="view-toggle" id="view-toggle" style="display:none;">
-                <button class="view-btn active" data-view="grid" aria-label="תצוגת רשת">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-                </button>
-                <button class="view-btn" data-view="list" aria-label="תצוגת רשימה">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="products-layout" id="products-layout">
-            <aside class="product-sidebar" id="product-sidebar" style="display:none;"></aside>
-            <div class="products-main">
-              <div class="product-grid product-grid-loading" id="zappy-product-grid">
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="product-card product-card-skeleton" aria-hidden="true">
-                    <div class="product-card-inner">
-                      <div class="product-card-media"><div class="skeleton-media"></div></div>
-                      <div class="product-card-body">
-                        <div class="skeleton-line skeleton-title"></div>
-                        <div class="skeleton-line"></div>
-                        <div class="skeleton-line skeleton-short"></div>
-                      </div>
-                    </div>
-                  </div>
-                
-                <span class="sr-only loading-products">טוען מוצרים...</span>
-              </div>
-            </div>
-          </div>
-        </section>
+        
+
+<section class="gallery-section" aria-labelledby="gallery-heading">
+  <div class="gallery-container">
+    <h2 id="gallery-heading" class="gallery-title">העבודות שלנו</h2>
+    <p class="gallery-subtitle">צפו במבחר עבודות פחחות וצבע מקצועיות שביצענו ללקוחותינו</p>
+    
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="תיקון דלת קדמית - לפני ואחרי" class="gallery-image" data-placeholder="gallery-front-door" data-context="Car front door repair before and after, professional auto body work showing dent removal and paint matching" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">תיקון דלת קדמית</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">תיקון דלת קדמית</h3>
+          <p class="gallery-card-text">הסרת שקעים, יישור פח וצביעה בגוון רכב מקורי</p>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="החלפת פגוש אחורי - לפני ואחרי" class="gallery-image" data-placeholder="gallery-rear-bumper" data-context="Car rear bumper replacement before and after, professional auto body repair showing new bumper installation and paint" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">החלפת פגוש אחורי</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">החלפת פגוש אחורי</h3>
+          <p class="gallery-card-text">החלפת פגוש מלאה כולל התאמה וצביעה מקצועית</p>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="צביעה מלאה לרכב - לפני ואחרי" class="gallery-image" data-placeholder="gallery-full-paint" data-context="Full car paint job before and after, professional auto painting showing complete color change with high quality finish" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">צביעה מלאה</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">צביעה מלאה</h3>
+          <p class="gallery-card-text">צביעה מלאה לרכב בצבע לבחירת הלקוח, גימור מושלם</p>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="תיקון כנף קדמית - לפני ואחרי" class="gallery-image" data-placeholder="gallery-front-fender" data-context="Car front fender repair before and after, professional dent removal and paint matching on metallic car" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">תיקון כנף קדמית</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">תיקון כנף קדמית</h3>
+          <p class="gallery-card-text">יישור פח והתזת צבע בגימור מטאלי מקורי</p>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="תיקון מכסה מנוע - לפני ואחרי" class="gallery-image" data-placeholder="gallery-hood-repair" data-context="Car hood repair before and after, professional auto body work showing dent removal and color matching on car hood" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">תיקון מכסה מנוע</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">תיקון מכסה מנוע</h3>
+          <p class="gallery-card-text">יישור מכסה מנוע פגוע וצביעה בגוון תואם מקור</p>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="החלפת פגוש קדמי - לפני ואחרי" class="gallery-image" data-placeholder="gallery-front-bumper" data-context="Car front bumper replacement before and after, professional auto body repair showing new bumper installation with perfect color match" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">החלפת פגוש קדמי</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">החלפת פגוש קדמי</h3>
+          <p class="gallery-card-text">החלפה מקצועית של פגוש קדמי פגוע כולל צביעה</p>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="תיקון דלת אחורית - לפני ואחרי" class="gallery-image" data-placeholder="gallery-rear-door" data-context="Car rear door repair before and after, professional dent removal and paint restoration on car door" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">תיקון דלת אחורית</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">תיקון דלת אחורית</h3>
+          <p class="gallery-card-text">שחזור דלת אחורית פגועה, יישור וצביעה מדויקת</p>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="ליטוש והברקה - לפני ואחרי" class="gallery-image" data-placeholder="gallery-polish" data-context="Car polishing and buffing before and after, professional detailing showing glossy finish restoration on car paint" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">ליטוש והברקה</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">ליטוש והברקה</h3>
+          <p class="gallery-card-text">ליטוש מקצועי להסרת שריטות והחזרת ברק לצבע הרכב</p>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-image-wrapper">
+          <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="תיקון פגיעת ברד - לפני ואחרי" class="gallery-image" data-placeholder="gallery-hail-repair" data-context="Car hail damage repair before and after, professional paintless dent removal showing smooth car surface restoration" loading="lazy" decoding="async" fetchpriority="low" />
+          <span class="gallery-badge">תיקון פגיעת ברד</span>
+        </div>
+        <div class="gallery-card-body">
+          <h3 class="gallery-card-title">תיקון פגיעת ברד</h3>
+          <p class="gallery-card-text">הסרת שקעי ברד בשיטת PDR ללא צורך בצביעה</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
       
   </main>
   <footer class="site-footer">
